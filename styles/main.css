@@ -1,11 +1,29 @@
-#navbar-top{
-    
+#header {
+    display: block;
+    height: 50px;
+    top: 0;
+    width: 100%;
+    background-color: orange; /* temporary. Should be set to white */
+}
+
+#btn-sign-in {
+    background-color: blue;
+    color: white;
+    height: 30px;
+    text-align: center;
+    margin-left: 96%;
+    margin-top: 0.5%
+}
+
+.header-footer-text {
+    font-size: 12px;
 }
 
 body{
     margin: 0;
     padding: 0;
     width: 100%; /* full width of window */
+    background-color: white;
 }
 
 #content-area{
@@ -63,5 +81,10 @@ body{
 
 
 #footer {
-
+    display: block; 
+    position: absolute;
+    bottom: 0; /* these three values to keep footer at the bottom*/
+    height: 50px;
+    width: 100%; /* full window width */
+    background-color: #f2f2f2;
 }
