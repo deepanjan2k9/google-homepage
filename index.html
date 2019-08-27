@@ -6,22 +6,18 @@
         <title>My Google Homepage</title>
     </head>
     <body>
-        <div id="navbar-top" class="navbar"></div>
-        <div id="main-body" class="content">
-            <div id="content-area" class="content">
-                <img id="logo" class="image" src="images/googlelogo_color_272x92dp.png" alt="Google logo">
+        <div id="navbar-top"></div>
+        <div id="main-body">
+            <div id="content-area">
+                <div id="div-logo">
+                    <img id="logo" src="images/googlelogo_color_272x92dp.png" alt="Google logo">
+                </div>
                 
-                <!-- Ideally want to keep <img> inside of a container <div>. Work on that later.
-                <div id="google-logo" class="logo-box">
-                    <img id="img-google-logo" class="image" src="/images/googlelogo_color_272x92dp.png">
-                </div>-->
-                
-
                 <form id="search-form">
-                    <div class="search">
+                    <div id="search">
                         <input id="input-search" type="text">
                     </div>
-                    <div class="div-button">
+                    <div id="div-button">
                         <input id="btn-google-search" type="submit" value="Google Search" class="button">
                         <input id="btn-feeling-lucky" type="submit" value="I'm Feeling Lucky" class="button">
                     </div>
@@ -31,6 +27,6 @@
                 </form>
             </div>
         </div>
-        <div id="footer" class="footer"></div>
+        <div id="footer"></div>
     </body>
 </html>
