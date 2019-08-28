@@ -1,3 +1,7 @@
+/*
+    -------------------------HEADER STYLES ------------------------------
+*/
+
 #header {
     display: block;
     height: 50px;
@@ -18,8 +22,17 @@
     margin-top: 7px;
 }
 
-.header-text {
+.div-header-left-text {
     padding-left: 10px;
+    float: left;
+}
+
+.div-header-right-text {
+    padding-left: 10px;
+    float: right;
+}
+
+.header-text {
     font-size: 14px;
     text-decoration: none;
     color: black;
@@ -44,6 +57,11 @@
 .header-footer-text {
     font-size: 12px;
 }
+
+
+/*
+    -------------------------BODY STYLES ------------------------------
+*/
 
 body{
     margin: 0;
@@ -98,6 +116,10 @@ body{
     padding-left: 10px;
 }
 
+#input-search:focus {
+    outline: none;  /* get rid of the focus outline box when in focus */
+}
+
 .button {
     height: 30px;
     width: 130px;
@@ -105,6 +127,9 @@ body{
     margin: 5px; /* space in between the buttons */
 }
 
+/*
+    -------------------------FOOTER STYLES ------------------------------
+*/
 
 #footer {
     display: block; 
@@ -127,10 +152,30 @@ body{
     margin-top: 7px;
 }
 
-.footer-text {
+.div-footer-left-text {
     padding-left: 10px;
+    float: left;
+}
+
+.div-footer-right-text {
+    padding-left: 10px;
+    float: right;
+}
+
+.footer-text {
+    
     font-size: 14px;
     text-decoration: none;
     color: black;
     font-family: 'Roboto', sans-serif; /* Roboto font taken from Google Fonts */
 }
+
+/*
+    -------------------------HYPER LINK STYLES ------------------------------
+*/
+
+a:hover, a:focus {
+    border-bottom: 1px solid;
+    outline: none;
+}
+
