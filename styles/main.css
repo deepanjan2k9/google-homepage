@@ -23,6 +23,7 @@
     font-size: 14px;
     text-decoration: none;
     color: black;
+    font-family: 'Roboto', sans-serif; /* Roboto font taken from Google Fonts */
 }
 
 .header-button {
@@ -37,24 +38,8 @@
     text-decoration: none;
     font-weight: bold;
     color:white;
+    font-family: 'Roboto', sans-serif; /* Roboto font taken from Google Fonts */
 }
-
-/*
-Having second thoughts about using a input element of type button
-
-#btn-sign-in {
-    float: right;
-    background-color: blue;
-    color: white;
-    font-weight: bold;
-    height: 35px;
-    width: 5%;
-    text-align: center;
-
-    margin-top: 1%
-}
-
-*/
 
 .header-footer-text {
     font-size: 12px;
@@ -147,4 +132,5 @@ body{
     font-size: 14px;
     text-decoration: none;
     color: black;
+    font-family: 'Roboto', sans-serif; /* Roboto font taken from Google Fonts */
 }
